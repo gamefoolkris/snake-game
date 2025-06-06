@@ -1378,7 +1378,7 @@
         pBtn.style.width = pBtnSize.toString() + "%";
       }, 1000/33);
       setInterval(function() {
-        console.log((pBtnSize === tar362));
+        console.log((pBtnSize.eq(tar362)));
         let dis362 = tar362.minus(pBtnSize).abs();
         let inc362 = dis362;
         if(tar362.gt(pBtnSize)) {
