@@ -1384,11 +1384,11 @@
           if(tar362.gt(pBtnSize)) {
             res362 = res362.times(0.9);
             mom362 = mom362.plus(inc362);
-          } else {
-            if(tar362.lt(pBtnSize)) {
-              res362 = res362.times(0.9);
-              mom362 = mom362.minus(inc362);
-            }
+          }
+          if(tar362.lt(pBtnSize)) {
+            console.log(mom362);
+            res362 = res362.times(0.9);
+            mom362 = mom362.minus(inc362);
           }
           if(count362 > 0) {
             if(dis362 < 0.02) {
@@ -1404,9 +1404,9 @@
               count362 = 0;
             }
           }
-          mom362 = mom362.times(res362);
-          pBtnSize = pBtnSize.plus(mom362);
         }
+        mom362 = mom362.times(res362);
+        pBtnSize = pBtnSize.plus(mom362);
       }, 1000/30);
       pBtnArea.onmouseenter = function() {
         console.log("hi");
@@ -1414,6 +1414,7 @@
       };
       pBtnArea.onmouseleave = function() {
         console.log("bye");
+        tar362 = dec(30);
       };
 
       function kill() { // if you can't reload due to extreme performance issues with loops, this will send you to a blank page faster than reloading will. Activated by pressing [\]
