@@ -1409,10 +1409,11 @@
         }
       }, 1000/30);
       pBtnArea.onmouseenter = function() {
+        console.log("hi");
         tar362 = dec(35);
       };
       pBtnArea.onmouseleave = function() {
-        tar362 = dec(30);
+        alert("bye");
       };
 
       function kill() { // if you can't reload due to extreme performance issues with loops, this will send you to a blank page faster than reloading will. Activated by pressing [\]
