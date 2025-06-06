@@ -1391,7 +1391,7 @@
           mom362 = mom362.minus(inc362);
         }
         if(count362 > 0) {
-          if(dis362 < 0.02) {
+          if(dis362 < 0.02 && mom362.gt(0.2)) {
             if(count362 >= 4) {
               count362 = 0;
               res362 = dec(1);
