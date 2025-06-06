@@ -1373,11 +1373,18 @@
       var tar362 = dec(30); // target
       var mom362 = dec(0); // momentum
       var res362 = dec(1); // resistance
+      var pre362 = dec(30);
       var count362 = 0; // counter
       setInterval(function() {
         pBtn.style.width = pBtnSize.toString() + "%";
       }, 1000/33);
       setInterval(function() {
+        if(pre362 !== tar362) {
+          res362 = 1;
+          console.log("calm down");
+        }
+        let log362 = [];
+        log362.push(mom362.toString());
         let dis362 = tar362.minus(pBtnSize).abs();
         let inc362 = dis362;
         if(tar362.gt(pBtnSize)) {
@@ -1385,10 +1392,10 @@
           mom362 = mom362.plus(inc362);
         }
         if(tar362.toNumber() < pBtnSize.toNumber()) {
-          console.log(mom362.toString());
+          log362.push(mom362.toString());
           res362 = res362.times(0.9);
           mom362 = mom362.minus(inc362);
-          console.log(mom362.toString());
+          log362.push(mom362.toString());
         }
         if(count362 > 0) {
           if(dis362 < 0.02 && mom362.abs().gt(0.1)) {
@@ -1408,10 +1415,11 @@
             }
           }
         }
-        console.log(mom362.toString());
+        log362.push(mom362.toString());
         mom362 = mom362.times(res362);
-        console.log(mom362.toString());
+        log362.push(mom362.toString());
         pBtnSize = pBtnSize.plus(mom362);
+        console.log(log362);
       }, 1000/12);
       pBtnArea.onmouseenter = function() {
         tar362 = dec(35);
