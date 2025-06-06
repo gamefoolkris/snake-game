@@ -1168,9 +1168,6 @@
         const code = evt.keyCode;
         let key = evt.key;
         key = key.toUpperCase();
-        let output = "Keypush: [";
-        output = output + key + "]";
-        console.log(output);
 
         if(getKey(code) == "u" && !dis) {
           up();
@@ -1186,6 +1183,9 @@
         }
         if(getKey(code) == "p" && !dis) {
           pause();
+        }
+        if(key === "\\") {
+          kill();
         }
       }
       upBtn.onclick = function() {
@@ -1382,11 +1382,11 @@
           let dis362 = tar362.minus(pBtnSize).abs();
           let inc362 = dis362;
           if(tar362.gt(pBtnSize)) {
-            res362 = res362.times(0.8);
+            res362 = res362.times(0.9);
             mom362 = mom362.plus(inc362);
           } else {
             if(tar362.lt(pBtnSize)) {
-              res362 = res362.times(0.8);
+              res362 = res362.times(0.9);
               mom362 = mom362.minus(inc362);
             }
           }
