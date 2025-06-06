@@ -1378,31 +1378,30 @@
         pBtn.style.width = pBtnSize.toString() + "%";
       }, 1000/33);
       setInterval(function() {
-        if(pBtnSize !== tar362) {
-          let dis362 = tar362.minus(pBtnSize).abs();
-          let inc362 = dis362;
-          if(tar362.gt(pBtnSize)) {
-            res362 = res362.times(0.9);
-            mom362 = mom362.plus(inc362);
-          }
-          if(tar362.lt(pBtnSize)) {
-            console.log(mom362);
-            res362 = res362.times(0.9);
-            mom362 = mom362.minus(inc362);
-          }
-          if(count362 > 0) {
-            if(dis362 < 0.02) {
-              if(count362 >= 4) {
-                count362 = 0;
-                res362 = dec(1);
-                mom362 = dec(0);
-                pBtnSize = tar362;
-              } else {
-                count++;
-              }
-            } else {
+        console.log(pBtnSize === tar362);
+        let dis362 = tar362.minus(pBtnSize).abs();
+        let inc362 = dis362;
+        if(tar362.gt(pBtnSize)) {
+          res362 = res362.times(0.9);
+          mom362 = mom362.plus(inc362);
+        }
+        if(tar362.lt(pBtnSize)) {
+          console.log(mom362);
+          res362 = res362.times(0.9);
+          mom362 = mom362.minus(inc362);
+        }
+        if(count362 > 0) {
+          if(dis362 < 0.02) {
+            if(count362 >= 4) {
               count362 = 0;
+              res362 = dec(1);
+              mom362 = dec(0);
+              pBtnSize = tar362;
+            } else {
+              count++;
             }
+          } else {
+            count362 = 0;
           }
         }
         mom362 = mom362.times(res362);
