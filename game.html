@@ -1385,10 +1385,10 @@
           mom362 = mom362.plus(inc362);
         }
         if(tar362.toNumber() < pBtnSize.toNumber()) {
-          console.log(mom362);
+          console.log(mom362.toString());
           res362 = res362.times(0.9);
           mom362 = mom362.minus(inc362);
-          console.log(mom362);
+          console.log(mom362.toString());
         }
         if(count362 > 0) {
           if(dis362 < 0.02 && mom362.abs().gt(0.1)) {
@@ -1408,9 +1408,9 @@
             }
           }
         }
-        console.log(mom362);
+        console.log(mom362.toString());
         mom362 = mom362.times(res362);
-        console.log(mom362);
+        console.log(mom362.toString());
         pBtnSize = pBtnSize.plus(mom362);
       }, 1000/12);
       pBtnArea.onmouseenter = function() {
