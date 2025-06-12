@@ -3,7 +3,7 @@
 <div>A heavily remastered version of a <a href="https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript">WikiHow</a> game</div>
 
 <h2>How to Play</h2>
-<div>Download <a href="https://raw.githubusercontent.com/gamefoolkris/snake-game/refs/heads/main/index.html">index.html</a> and open the file in your browser<div>
+<div>Download <a href="https://github.com/gamefoolkris/snake-game/releases/download/v1.0/index.html">index.html</a> and open the file in your browser<div>
 <div>It is a standalone game file, and can be ran on its own<div>
 
 <h2>Changelod</h2>
