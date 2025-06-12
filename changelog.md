@@ -1,6 +1,6 @@
 <h1>Snake Game by GameFoolKris</h1>
 <h2>Changelog</h2>
-<h3>v1.0 - Release</h3>
+<h3>v1.0.0 - Release</h3>
 The official release
 <h4>Changes</h4>
 <ul>
