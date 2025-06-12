@@ -1,7 +1,8 @@
 <h1>Snake Game by GameFoolKris</h1>
 <h2>Changelog</h2>
 <h3>v1.0.0 - Release</h3>
-The official release
+<div>The official release</div>
+<div>You can download v1.0.0 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.0.0/index.html">here</a></div>
 <h4>Changes</h4>
 <ul>
   <li>
