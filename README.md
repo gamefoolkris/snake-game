@@ -6,7 +6,7 @@
 <div>Download <a href="https://github.com/gamefoolkris/snake-game/releases/download/v1.0/index.html">index.html</a> and open the file in your browser<div>
 <div>It is a standalone game file, and can be ran on its own<div>
 
-<h2>Changelod</h2>
+<h2>Changelog</h2>
 <div>The changelog can be found <a href="https://github.com/gamefoolkris/snake-game/blob/main/changelog.md">here</a></div>
 
 <h2>Credits</h2>
