@@ -1,4 +1,4 @@
-<h1>Snake Game by GameFoolKris (v1.0.0)</h1>
+<h1>Snake Game by GameFoolKris (v1.1.0-DEV)</h1>
 <div>A recreation of the popular game "Snake"</div>
 <div>A heavily remastered version of a <a href="https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript">WikiHow</a> game</div>
 
@@ -16,4 +16,5 @@
 <ul>
   <li><a href="https://www.npmjs.com/package/decimal.js">decimal.js</a> by <a href="https://github.com/MikeMcl">MikeMcl</a></li>
   <li><a href="https://www.npmjs.com/package/gamecontroller.js">gamecontroller.js</a> by <a href="https://github.com/alvaromontoro/">Alvaro Montoro</a></li>
+  <li><a href="https://www.npmjs.com/package/lz-string">LZ-String</a> by <a href="https://github.com/pieroxy/">pieroxy</a></li>
 </ul>
