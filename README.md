@@ -1,4 +1,4 @@
-<h1>Snake Game by GameFoolKris (v1.1.0-devv)</h1>
+<h1>Snake Game by GameFoolKris (v1.1.0-dev)</h1>
 <div>A recreation of the popular game "Snake"</div>
 <div>A heavily remastered version of a <a href="https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript">WikiHow</a> game</div>
 
