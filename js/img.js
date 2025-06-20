@@ -43,3 +43,14 @@ function blob817(url817) {
   }
   return new Blob([array817], { type: mime817 });
 }
+function uint8ArrayFromDataURI(dataURI) {
+  const parts = dataURI.split(',');
+  const base64Data = parts[1];
+  const binaryString = atob(base64Data);
+  const len = binaryString.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    bytes[i] = binaryString.charCodeAt(i);
+  }
+  return bytes;
+}
