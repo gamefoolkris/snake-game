@@ -31,7 +31,6 @@ for(let i = 0; i < numbers.length; i++) {
 for(let i = 0; i < img.length; i++) {
   let uint817 = new Uint8Array(img[i]);
   img[i] = fflate.unzlibSync(uint817);
-  console.log(img[i].length);
 }
 
 /* ~~~ IMAGE ASSIGNMENT ~~~ */
@@ -44,5 +43,5 @@ document.getElementById("playFG").src = URL.createObjectURL(blob817(img[6]));
 
 /* ~~~ STUFF IM TOO LAZY TO NAME ~~~ */
 function blob817(in817) {
-  return new Blob(in817, { type: "image/gif" });
+  return new Blob([in817], { type: "image/gif" });
 }
