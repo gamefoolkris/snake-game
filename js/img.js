@@ -25,10 +25,13 @@ var arrows = [ // The mobile arrow icons, located in /img/arrow/
 ];
 /* ~~~ DECOMPRESSING ~~~ */
 for(let i = 0; i < numbers.length; i++) {
-  numbers[i] = fflate.unzlibSync(new Uint8Array(numbers[i]));
+  let uint817 = new Uint8Array(numbers[i]);
+  numbers[i] = fflate.unzlibSync(uint817);
 }
 for(let i = 0; i < img.length; i++) {
-  img[i] = fflate.unzlibSync(new Uint8Array(img[i]));
+  let uint817 = new Uint8Array(img[i]);
+  img[i] = fflate.unzlibSync(uint817);
+  console.log(img[i].length);
 }
 
 /* ~~~ IMAGE ASSIGNMENT ~~~ */

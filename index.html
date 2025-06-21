@@ -11,8 +11,8 @@
     <span id="comfort">
       <img id="title" width="75%"/>
       <button id="play">
-        <img id="playOutline" />
-        <img id="playText" />
+        <img id="playBG" />
+        <img id="playFG" />
       </button>
       <button id="playArea"></button>
       </button>
@@ -336,7 +336,7 @@
         background: none;
         touch-action: manipulation;
       }
-      #playOutline {
+      #playBG {
         image-rendering: optimizeSpeed;
         image-rendering: -moz-crisp-edges;
         image-rendering: -o-crisp-edges;
@@ -357,7 +357,7 @@
       #title {
         border-radius: 10px;
       }
-      #playText {
+      #playFG {
         image-rendering: optimizeSpeed;
         image-rendering: -moz-crisp-edges;
         image-rendering: -o-crisp-edges;
@@ -1310,8 +1310,8 @@
       var title = document.getElementById("title");
       var pBtn = document.getElementById("play");
       var pBtnArea = document.getElementById("playArea");
-      var pOut = document.getElementById("playOutline");
-      var pTxt = document.getElementById("playText");
+      var pBG = document.getElementById("playBG");
+      var pFG = document.getElementById("playFG");
       var trans = document.getElementById("trans");
       var gameElem = document.getElementById("game");
       var cZone = document.getElementById("comfort");
@@ -1346,12 +1346,12 @@
       setTimeout(function() {
         pBtn.style.display = "inline-block";
         setTimeout(function() {
-          pOut.style.opacity = "1";
+          pBG.style.opacity = "1";
           pBtnArea.style.display = "inline-block";
         }, 50)
       }, 6100);
       setTimeout(function() {
-        pTxt.style.opacity = "1";
+        pFG.style.opacity = "1";
       }, 6600);
       pBtnArea.onclick = function() {
         sfx.play();
