@@ -4,12 +4,13 @@
 <div style="display: none;">You can download v1.1.0 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.0/index.html">here</a></div>
 <ul>
   <li>Added alternating body color</li>
-  <li>Decreased game from 1020KB to 381KB</li>
-  <li></li>
+  <li>Decreased game size from 1020KB to 951KB (It was 351KB before revamping, I swear this is an improvement)</li>
+  <li>Added high score feature</li>
+  <li>Switched from using Data URI to using fflate & uint8array</li>
+  <li>Revamped all my GUI elements</li>
 </ul>
 <h3>Planned Changes</h3>
 <ul>
-  <li>Add highscore and data saving</li>
   <li>Bind the play button to a controller button</li>
 </ul>
 <h2>Previous Releases</h2>
