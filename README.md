@@ -6,6 +6,15 @@
 <div>Download <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.1/index.html">index.html</a> and open the file in your browser<div>
 <div>It is a standalone game file, and can be ran on its own<div>
 
+<h2>Controls</h2>
+<h3>Keyboard</h3>
+<div>Move: Arrows or WASD</div>
+<div>Pause: Esc or P</div>
+<h3>Controller</h3>
+<div>Move: D-Pad or thumbstick</div>
+<div>Play: A</div>
+<div>Pause: B</div>
+
 <h2>Changelog</h2>
 <div>The changelog can be found <a href="https://github.com/gamefoolkris/snake-game/blob/main/changelog.md">here</a></div>
 
