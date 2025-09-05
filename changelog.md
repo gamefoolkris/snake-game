@@ -1,5 +1,15 @@
-<h1>Snake Game by GameFoolKris</h1>
+<h1>Snake Game by GameFoolKris (DEV BRANCH)</h1>
 <h2>Changelog</h2>
+<h3>v1.1.2</h3>
+<div>You can download v1.1.2 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.2/index.html">here</a></div>
+<ul>
+  <li>Added some anti-aliasing to the title screen</li>
+</ul>
+<h3>Planned Changes</h3>
+<ul>
+  <li>Idk</li>
+</ul>
+<h2>Previous Releases</h2>
 <h3>v1.1.1</h3>
 <div>You can download v1.1.1 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.1/index.html">here</a></div>
 <ul>
@@ -9,11 +19,6 @@
   <li>Bound the A button on controllers to play, and B to pause</li>
   <li>Removed LZString</li>
 </ul>
-<h3>Planned Changes</h3>
-<ul>
-  <li>Idk</li>
-</ul>
-<h2>Previous Releases</h2>
 <h3>v1.1.0</h3>
 <div>You can download v1.1.0 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.0/index.html">here</a></div>
 <ul>
