@@ -1,6 +1,23 @@
 <h1>Snake Game by GameFoolKris</h1>
 <h2>Changelog</h2>
-I have another version ready but i'm too lazy to push it lol :P
+<h3>v1.2.0</h3>
+<div>You can download v1.2.0 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.2.0/index.html">here</a></div>
+<ul>
+  <li>Further decreased game size from 764KiB to 421KiB</li>
+  <li>Improved mobile UI</li>
+  <li>Switched from Base64 to Base91</li>
+  <li>Switched from GIF to APNG</li>
+  <li>Switched from WAV to MP3</li>
+  <li>Added a runtime unpacker bcuz why not (development purposes)</li>
+  <li>Added an animation for having a new high score</li>
+  <li>New transition screen, better title screen</li>
+  <li>And whatever else I added over the last year I've been neglecting this for</li>
+</ul>
+<h3>Planned Changes</h3>
+<ul>
+  <li>Idk</li>
+</ul>
+<h2>Previous Releases</h2>
 <h3>v1.1.1</h3>
 <div>You can download v1.1.1 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.1/index.html">here</a></div>
 <ul>
@@ -10,11 +27,6 @@ I have another version ready but i'm too lazy to push it lol :P
   <li>Bound the A button on controllers to play, and B to pause</li>
   <li>Removed LZString</li>
 </ul>
-<h3>Planned Changes</h3>
-<ul>
-  <li>Idk</li>
-</ul>
-<h2>Previous Releases</h2>
 <h3>v1.1.0</h3>
 <div>You can download v1.1.0 <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.0/index.html">here</a></div>
 <ul>

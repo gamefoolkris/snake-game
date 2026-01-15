@@ -1,9 +1,9 @@
-<h1>Snake Game by GameFoolKris v1.1.1</h1>
+<h1>Snake Game by GameFoolKris v1.2.0</h1>
 <div>A recreation of the popular game "Snake"</div>
 <div>A heavily remastered version of a <a href="https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript">WikiHow</a> game</div>
 
 <h2>How to Play</h2>
-<div>Download <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.1.1/index.html">index.html</a> and open the file in your browser<div>
+<div>Download <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.2.0/index.html">index.html</a> and open the file in your browser<div>
 <div>It is a standalone game file, and can be ran on its own<div>
 
 <h2>Controls</h2>
@@ -26,4 +26,5 @@
   <li><a href="https://www.npmjs.com/package/decimal.js">Decimal.JS</a> by <a href="https://github.com/MikeMcl">MikeMcl</a></li>
   <li><a href="https://www.npmjs.com/package/gamecontroller.js">GameController.JS</a> by <a href="https://github.com/alvaromontoro/">Alvaro Montoro</a></li>
   <li><a href="https://www.npmjs.com/package/fflate">FFlate</a> by <a href="https://github.com/101arrowz/">101arrowz</a></li>
+  <li><a href="https://www.npmjs.com/package/base91">Base91.JS</a> by <a href="https://github.com/mscdex/">mscdex</a></li>
 </ul>
