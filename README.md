@@ -1,4 +1,5 @@
 # Snake Game by GameFoolKris v1.2.0
+![/titleAnim.png](titleAnim.png)  
 A recreation of the popular game "Snake"  
 A heavily remastered version of a [WikiHow](https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript) game
 
