@@ -1,30 +1,30 @@
-<h1>Snake Game by GameFoolKris v1.2.0</h1>
-<div>A recreation of the popular game "Snake"</div>
-<div>A heavily remastered version of a <a href="https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript">WikiHow</a> game</div>
+# Snake Game by GameFoolKris v1.2.0
+A recreation of the popular game "Snake"  
+A heavily remastered version of a [WikiHow](https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript) game
 
-<h2>How to Play</h2>
-<div>Download <a href="https://github.com/gamefoolkris/snake-game/releases/download/1.2.0/index.html">index.html</a> and open the file in your browser<div>
-<div>It is a standalone game file, and can be ran on its own<div>
+## How to Play
+Download [index.html](https://github.com/gamefoolkris/snake-game/releases/download/1.2.0/index.html) and open the file in your browser.  
+It is a standalone game file, and can be run on its own.
 
-<h2>Controls</h2>
-<h3>Keyboard</h3>
-<div>Move: Arrows or WASD</div>
-<div>Pause: Esc or P</div>
-<h3>Controller</h3>
-<div>Move: D-Pad or thumbstick</div>
-<div>Play: A</div>
-<div>Pause: B</div>
+## Controls
 
-<h2>Changelog</h2>
-<div>The changelog can be found <a href="https://github.com/gamefoolkris/snake-game/blob/main/changelog.md">here</a></div>
+### Keyboard
+- Move: Arrows or WASD  
+- Pause: Esc or P  
 
-<h2>Credits</h2>
-<div><b>Developer:</b> <a href="https://github.com/gamefoolkris/">GameFoolKris (Me)</a></div>
-<div><b>Original game:</b> <a href="https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript">Travis Boylls, WikiHow</a></div>
-<div><b>Libraries Used:</b></div>
-<ul>
-  <li><a href="https://www.npmjs.com/package/decimal.js">Decimal.JS</a> by <a href="https://github.com/MikeMcl">MikeMcl</a></li>
-  <li><a href="https://www.npmjs.com/package/gamecontroller.js">GameController.JS</a> by <a href="https://github.com/alvaromontoro/">Alvaro Montoro</a></li>
-  <li><a href="https://www.npmjs.com/package/fflate">FFlate</a> by <a href="https://github.com/101arrowz/">101arrowz</a></li>
-  <li><a href="https://www.npmjs.com/package/base91">Base91.JS</a> by <a href="https://github.com/mscdex/">mscdex</a></li>
-</ul>
+### Controller
+- Move: D-Pad or thumbstick  
+- Play: A  
+- Pause: B  
+
+## Changelog
+The changelog can be found [here](https://github.com/gamefoolkris/snake-game/blob/main/changelog.md).
+
+## Credits
+**Developer:** [GameFoolKris (Me)](https://github.com/gamefoolkris/)  
+**Original game:** [Travis Boylls, WikiHow](https://www.wikihow.com/Make-a-Game-with-Notepad#Creating-a-Snake-Game-with-HTML-and-JavaScript)  
+**Libraries Used:**
+- [Decimal.JS](https://www.npmjs.com/package/decimal.js) by [MikeMcl](https://github.com/MikeMcl)  
+- [GameController.JS](https://www.npmjs.com/package/gamecontroller.js) by [Alvaro Montoro](https://github.com/alvaromontoro/)  
+- [FFlate](https://www.npmjs.com/package/fflate) by [101arrowz](https://github.com/101arrowz/)  
+- [Base91.JS](https://www.npmjs.com/package/base91) by [mscdex](https://github.com/mscdex/)
